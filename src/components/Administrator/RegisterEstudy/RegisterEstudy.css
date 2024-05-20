@@ -1,0 +1,188 @@
+.AddStudentsAndAcudents {
+	width: 100%;
+	padding: .6em;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	gap: 1em;
+}
+.Acudents  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+}
+.Acudents > h1 {
+	color: var(--BlueBlack);
+	border-bottom: 2px solid var(--BlueBlackAdmint);
+	border-radius: 1em;
+	width: 100%;
+	text-align: center;
+	max-width: 10em;
+	font-size: 1.2em;
+}
+.Acudents_form{
+	position: relative;
+	display: flex;
+	background-color: var(--BlueBlack);
+	border-radius: .5em;
+}
+.Acudents_form > div {
+	background-color: var(--BlueBlack);
+	padding: .8em;
+	display: flex;
+	flex-direction: column;
+	gap: .6em;
+	border-radius: 1em;
+	height: 18em;
+}
+.Acudents_form > div > div {
+	display: flex;
+	flex-direction: column;
+	gap: .3em;
+}
+.Acudents_form > div > div > label {
+	color: var(--White);
+}
+.Acudents_form > div > div > input {
+	padding: .3em;
+	border-radius: .4em;
+	border: none;
+}
+.Acudents_form > button {
+	padding: .5em;
+	border: none;
+	border-radius: .5em;
+	width: 100%;
+	margin: auto;
+	margin-top: .5em;
+	background-color: var(--BlueBlackAdmint);
+	color: var(--White);
+	font-size: 1.2em;
+    position: absolute;
+	bottom: 0;
+}
+.Estudents{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1em;
+	padding-top: 2em;
+}
+.Estudents > h1 {
+	color: var(--BlueBlack);
+	border-bottom: 2px solid var(--BlueBlackAdmint);
+	border-radius: 1em;
+	width: 100%;
+	text-align: center;
+	max-width: 10em;
+	font-size: 1.2em;
+}
+.Estudents_form {
+	background-color: var(--BlueBlack);
+	padding: .8em;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: .7em;
+	border-radius: .5em;
+	position: relative;
+	height: 18em;
+}
+.Estudents_form > div {
+	display: flex;
+	flex-direction: column;
+	gap: .6em;
+}
+.Estudents_form > div > div {
+	display: flex;
+	flex-direction: column;
+	gap: .3em;
+}
+.Estudents_form > div > div > label {
+	color: var(--White);
+}
+.Estudents_form > div > div > input {
+	padding: .3em;
+	border-radius: .4em;
+	border: none;
+}
+.Estudents_form > button {
+	padding: .5em;
+	border: none;
+	border-radius: .5em;
+	width: 100%;
+	margin: auto;
+	margin-top: .5em;
+	background-color: var(--BlueBlackAdmint);
+	color: var(--White);
+	font-size: 1.2em;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+@media (max-width: 1020px) {
+	.AddStudentsAndAcudents {
+		width: 100%;
+		padding: .6em;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 28em;
+		gap: 1em;
+	}
+	.Acudents  {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1em;
+		margin-top: 9em;
+	}
+	.Acudents > h1 {
+		color: var(--BlueBlack);
+		border-bottom: 2px solid var(--BlueBlackAdmint);
+		border-radius: 1em;
+		width: 100%;
+		text-align: center;
+		max-width: 10em;
+		font-size: 1.2em;
+	}
+	.Acudents_form{
+		background-color: var(--BlueBlack);
+		position: relative;
+		border-radius: 1em;
+		display: flex;
+		flex-direction: column;
+	}
+	.Acudents_form > div {
+		background-color: var(--BlueBlack);
+		padding: .8em;
+		display: flex;
+		flex-direction: column;
+		gap: .6em;
+		border-radius: 1em;
+		height: 16em;
+	}
+	.div1 {
+		margin-top: -1.5em;
+	}
+
+	.Estudents_form {
+		background-color: var(--BlueBlack);
+		padding: 1.2em;
+		display: grid;
+		grid-template-columns: 0fr;
+		gap: 0em;
+		border-radius: 1em;
+		position: relative;
+		height: 35em;
+	}
+	.div2 {
+		margin-top: -3em;
+	}
+	.Rol {
+		margin-top: 3em;
+		background-color: aqua;
+	}
+}
